@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", function(e) {
         // paused is property on video
         if (video.paused) {
             video.play();
-            // video.muted = false;
+            video.muted = false;
         } else {
             video.pause();
-            // video.muted = false;
+            video.muted = false;
         }
     }
 
